@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice4</title>
+</head>
+<body>
+    <h1>Checkbox</h1>
+    <p>choose your favourite hobbies</p>
+    <form method="post" action="/html/class2.html" target="_blank">
+        <input type="checkbox" id="My hobby" name="My hobby" value="favourite-hobbies">
+        <label for="Hobbies">Sportts</label><br>
+        <input type="checkbox" id="My hobby" name="My hobby" value="favourite-hobbies">
+        <label for="Hobbies">Coding</label><br>
+        <input type="checkbox" id="My hobby" name="My hobby" value="favourite-hobbies">
+        <label for="Hobbies">Outing</label><br>
+        <input type="submit" value="submit">
+    </form><br><br>
+    <h1>Select subjects</h1>
+    <form>
+        <label for="subjects">Choose your subjects</label><br>
+        <select id="subjects" name="subjects">
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Biology">Biology</option>
+            <option value="Maths">Maths</option>
+            <option value="urdu">urdu</option>
+        </select>
+    </form><br><br>
+    <h1>Select with size and multiple attribute</h1>
+    <form>
+        <label for="subjects">Choose your subjects</label><br>
+        <select id="subjects" name="subjects" size="3" multiple>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Biology">Biology</option>
+            <option value="Maths">Maths</option>
+            <option value="urdu">urdu</option>
+        </select>
+    </form><br><br>
+    <h2>Textarea</h2>
+    <textarea name="feedback" rows="10" cols="30"></textarea><br>
+    <input type="submit"><br>
+    <form method="post" action="/html/class1.html">
+        <fieldset>
+            <legend>Personalia</legend>
+            <label for="fname">first name:</label><br>
+           <input type="text" placeholder="Enter your first name" id="fname" name="fname"><br><br>
+           <label for="lname">Last name:</label><br>
+           <input type="text" placeholder="Enter your last name" id="fname" name="lname">
+           <button>Login</button>
+        </fieldset>
+    </form>
+</body>
+</html>
